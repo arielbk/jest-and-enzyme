@@ -1,4 +1,4 @@
-* React Testing with Jest and Enzyme
+# React Testing with Jest and Enzyme
 
 Currently following along with Bonnie Schulkin's [React Testing with Jest and Enzyme](https://www.udemy.com/react-testing-with-jest-and-enzyme/) course on Udemy.
 
