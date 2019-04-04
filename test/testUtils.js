@@ -1,7 +1,8 @@
 import checkPropTypes from 'check-prop-types';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 
 import rootReducer from '../src/reducers';
+import { middleware } from '../src/configureStore';
 
 /**
  * Create a testing store with imported reducers, middleware, and initial state
@@ -11,7 +12,8 @@ import rootReducer from '../src/reducers';
  * @returns {Store} - Redux store
  */
 export const storeFactory = (initialState) => {
-  return createStore(rootReducer, initialState);
+  const createStoreWithMiddleware = applyMiddleware(...middleware)(createStore);
+  return createStoreWithMiddleware(rootReducer, initialState);
 }
 // Passing this as a prop directly to the component no longer works:
 // `Invariant Violation: Passing redux store in props has been removed and does not do anything.`
