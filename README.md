@@ -1,6 +1,6 @@
 # React Testing with Jest and Enzyme
 
-[![Build Status](https://travis-ci.com/arielbk/jest-and-enzyme.svg?branch=master)](https://travis-ci.com/arielbk/jest-and-enzyme) [![Coverage Status](https://coveralls.io/repos/github/arielbk/react-testing/badge.svg?branch=master)](https://coveralls.io/github/arielbk/react-testing?branch=master)
+[![Build Status](https://travis-ci.com/arielbk/jest-and-enzyme.svg?branch=master)](https://travis-ci.com/arielbk/jest-and-enzyme) [![Coverage Status](https://coveralls.io/repos/github/arielbk/jest-and-enzyme/badge.svg?branch=master)](https://coveralls.io/github/arielbk/jest-and-enzyme?branch=master)
 
 Currently following along with Bonnie Schulkin's [React Testing with Jest and Enzyme](https://www.udemy.com/react-testing-with-jest-and-enzyme/) course on Udemy.
 
