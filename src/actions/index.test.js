@@ -24,6 +24,8 @@ describe('getSecretWord action creator', () => {
     });
 
     // getSecretWord() returns a function that returns a promise...
+    // it's important, to test the return from the promise
+    // otherwise, errors may pass through the test, before the promise is resolved
     return store.dispatch(getSecretWord())
       .then(() => {
         const newState = store.getState();
